@@ -1,6 +1,6 @@
 # Week \#1
 
-## Project : Multi Screen Object Moving Using Socket.io
+## Project : Multi Screen Animation Using Socket.io
 
 A Multi screen Animation project where all the screens of desktops/laptops will be in sync with the help of socket connections.
 
