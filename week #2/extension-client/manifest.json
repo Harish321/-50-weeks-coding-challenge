@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Notify Me",
+    "description": "This extension will send a response to the server",
+    "version": "1.0",
+    "icons": {
+      "128": "icons/icon128.png",
+      "48": "icons/icon48.png",
+      "16": "icons/icon16.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "icons/icon16.png",
+      "default_popup": "popup.html"
+    },
+  
+    "background": {
+      "scripts": ["eventPage.js"],
+      "persistent": false
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["http://localhost:*/*"],
+        "css": ["style.css"],
+        "js":["script.js"]
+      }
+    ],
+  
+    "permissions": [
+            "storage",
+            "notifications",
+            "contextMenus",
+            "http://localhost:3000/*"
+          ]
+  
+  }
