@@ -6,8 +6,8 @@ An Extension/Server Project which will send a notification once the build is fin
 
 ### Check List
 
-- [ ] Node server with childProcess support to run native commands
-- [ ] Extension with context menu support to grab and communicate to server to register build id
+- [x] Node server with childProcess support to run native commands
+- [x] Extension with context menu support to grab and communicate to server to register build id
 
 - [ ] Documentation and gh-page design for the entire project.
 
