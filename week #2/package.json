@@ -9,7 +9,7 @@
   "author": "Harish Dhulipalla",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "child_process": "^1.0.2",
     "custom-env": "^1.0.0",
     "hexo-fs": "^1.0.2",
